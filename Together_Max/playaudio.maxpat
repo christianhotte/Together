@@ -57,8 +57,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.260859131813049, 127.0, 94.0, 22.0 ],
-					"text" : "formatFileName"
+					"patching_rect" : [ 318.260859131813049, 127.0, 122.0, 22.0 ],
+					"text" : "formatFileName .wav"
 				}
 
 			}
@@ -118,7 +118,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 410.260859131813049, 243.373502969741821, 38.0, 22.0 ],
-					"text" : "int 50"
+					"text" : "int 20"
 				}
 
 			}
@@ -129,8 +129,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 339.260859131813049, 243.373502969741821, 51.0, 22.0 ],
-					"text" : "int 2000"
+					"patching_rect" : [ 339.260859131813049, 243.373502969741821, 38.0, 22.0 ],
+					"text" : "int 20"
 				}
 
 			}

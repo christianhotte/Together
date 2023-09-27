@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 119.0, 974.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -70,8 +70,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 327.0, 245.0, 249.0, 22.0 ],
-					"text" : "combine parentDir media/ 1 .wav @triggers 2"
+					"patching_rect" : [ 327.0, 245.0, 238.0, 22.0 ],
+					"text" : "combine parentDir media/ 1 #1 @triggers 2"
 				}
 
 			}
@@ -95,8 +95,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 480.333333333333371, 203.029126226902008, 30.0, 30.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 473.0, 203.029126226902008, 30.0, 30.0 ]
 				}
 
 			}
