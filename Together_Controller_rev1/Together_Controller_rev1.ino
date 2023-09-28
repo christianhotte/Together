@@ -39,8 +39,11 @@ void loop() {
     for (int i = 0; i < 3; i++) {
       IRValues[i] = (analogRead(IRPins[i]) < sensorThresh) ? true : false; //Determine boolean value for each sensor
       if (IRValues[i] != prevIRValues[i]){ //Value has changed
-        String message = "Sensor "; message += i; message += " is now "; message += (IRValues[i] ? "HIGH" : "LOW"); //Create serial message
-        Serial.println(message);                                                                                    //Print message on serial monitor
+        // Print message
+        Serial.print(i);
+        Serial.print(" ");
+        Serial.print(IRValues[i]);
+        Serial.println();                                                                   //Print message on serial monitor
         digitalWrite(LEDPins[i], IRValues[i] ? HIGH : LOW);                                                         //Change LED status
       }
     }
